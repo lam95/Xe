@@ -86,6 +86,12 @@
 		<Unit filename="E:/GitRepo/Xe/Xe.h">
 			<Option target="Xe"/>
 		</Unit>
+		<Unit filename="E:/GitRepo/Xe/XeMay.cpp">
+			<Option target="Xe"/>
+		</Unit>
+		<Unit filename="E:/GitRepo/Xe/XeMay.h">
+			<Option target="Xe"/>
+		</Unit>
 		<Unit filename="E:/GitRepo/Xe/XeOto.cpp">
 			<Option target="Xe"/>
 		</Unit>

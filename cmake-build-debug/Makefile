@@ -149,6 +149,33 @@ Xe.cpp.s:
 	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/Xe.cpp.s
 .PHONY : Xe.cpp.s
 
+XeMay.obj: XeMay.cpp.obj
+
+.PHONY : XeMay.obj
+
+# target to build an object file
+XeMay.cpp.obj:
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeMay.cpp.obj
+.PHONY : XeMay.cpp.obj
+
+XeMay.i: XeMay.cpp.i
+
+.PHONY : XeMay.i
+
+# target to preprocess a source file
+XeMay.cpp.i:
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeMay.cpp.i
+.PHONY : XeMay.cpp.i
+
+XeMay.s: XeMay.cpp.s
+
+.PHONY : XeMay.s
+
+# target to generate assembly for a file
+XeMay.cpp.s:
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeMay.cpp.s
+.PHONY : XeMay.cpp.s
+
 XeOto.obj: XeOto.cpp.obj
 
 .PHONY : XeOto.obj
@@ -215,6 +242,9 @@ help:
 	@echo ... Xe.obj
 	@echo ... Xe.i
 	@echo ... Xe.s
+	@echo ... XeMay.obj
+	@echo ... XeMay.i
+	@echo ... XeMay.s
 	@echo ... XeOto.obj
 	@echo ... XeOto.i
 	@echo ... XeOto.s

@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "E:/GitRepo/Xe/Xe.cpp" "E:/GitRepo/Xe/cmake-build-debug/CMakeFiles/Xe.dir/Xe.cpp.obj"
+  "E:/GitRepo/Xe/XeMay.cpp" "E:/GitRepo/Xe/cmake-build-debug/CMakeFiles/Xe.dir/XeMay.cpp.obj"
   "E:/GitRepo/Xe/XeOto.cpp" "E:/GitRepo/Xe/cmake-build-debug/CMakeFiles/Xe.dir/XeOto.cpp.obj"
   "E:/GitRepo/Xe/main.cpp" "E:/GitRepo/Xe/cmake-build-debug/CMakeFiles/Xe.dir/main.cpp.obj"
   )
