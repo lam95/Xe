@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.1.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\GitRepo\Xe
+CMAKE_SOURCE_DIR = E:\GitRepo\Xe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\GitRepo\Xe\cmake-build-debug
+CMAKE_BINARY_DIR = E:\GitRepo\Xe\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Xe.dir/depend.make
@@ -58,16 +58,16 @@ include CMakeFiles/Xe.dir/flags.make
 
 CMakeFiles/Xe.dir/main.cpp.obj: CMakeFiles/Xe.dir/flags.make
 CMakeFiles/Xe.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Xe.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Xe.dir\main.cpp.obj -c F:\GitRepo\Xe\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Xe.dir/main.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Xe.dir\main.cpp.obj -c E:\GitRepo\Xe\main.cpp
 
 CMakeFiles/Xe.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Xe.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\GitRepo\Xe\main.cpp > CMakeFiles\Xe.dir\main.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitRepo\Xe\main.cpp > CMakeFiles\Xe.dir\main.cpp.i
 
 CMakeFiles/Xe.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Xe.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\GitRepo\Xe\main.cpp -o CMakeFiles\Xe.dir\main.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitRepo\Xe\main.cpp -o CMakeFiles\Xe.dir\main.cpp.s
 
 CMakeFiles/Xe.dir/main.cpp.obj.requires:
 
@@ -82,16 +82,16 @@ CMakeFiles/Xe.dir/main.cpp.obj.provides.build: CMakeFiles/Xe.dir/main.cpp.obj
 
 CMakeFiles/Xe.dir/Xe.cpp.obj: CMakeFiles/Xe.dir/flags.make
 CMakeFiles/Xe.dir/Xe.cpp.obj: ../Xe.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=F:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Xe.dir/Xe.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Xe.dir\Xe.cpp.obj -c F:\GitRepo\Xe\Xe.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Xe.dir/Xe.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Xe.dir\Xe.cpp.obj -c E:\GitRepo\Xe\Xe.cpp
 
 CMakeFiles/Xe.dir/Xe.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Xe.dir/Xe.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E F:\GitRepo\Xe\Xe.cpp > CMakeFiles\Xe.dir\Xe.cpp.i
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitRepo\Xe\Xe.cpp > CMakeFiles\Xe.dir\Xe.cpp.i
 
 CMakeFiles/Xe.dir/Xe.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Xe.dir/Xe.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S F:\GitRepo\Xe\Xe.cpp -o CMakeFiles\Xe.dir\Xe.cpp.s
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitRepo\Xe\Xe.cpp -o CMakeFiles\Xe.dir\Xe.cpp.s
 
 CMakeFiles/Xe.dir/Xe.cpp.obj.requires:
 
@@ -104,21 +104,47 @@ CMakeFiles/Xe.dir/Xe.cpp.obj.provides: CMakeFiles/Xe.dir/Xe.cpp.obj.requires
 CMakeFiles/Xe.dir/Xe.cpp.obj.provides.build: CMakeFiles/Xe.dir/Xe.cpp.obj
 
 
+CMakeFiles/Xe.dir/XeOto.cpp.obj: CMakeFiles/Xe.dir/flags.make
+CMakeFiles/Xe.dir/XeOto.cpp.obj: ../XeOto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=E:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Xe.dir/XeOto.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Xe.dir\XeOto.cpp.obj -c E:\GitRepo\Xe\XeOto.cpp
+
+CMakeFiles/Xe.dir/XeOto.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Xe.dir/XeOto.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E E:\GitRepo\Xe\XeOto.cpp > CMakeFiles\Xe.dir\XeOto.cpp.i
+
+CMakeFiles/Xe.dir/XeOto.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Xe.dir/XeOto.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-7~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S E:\GitRepo\Xe\XeOto.cpp -o CMakeFiles\Xe.dir\XeOto.cpp.s
+
+CMakeFiles/Xe.dir/XeOto.cpp.obj.requires:
+
+.PHONY : CMakeFiles/Xe.dir/XeOto.cpp.obj.requires
+
+CMakeFiles/Xe.dir/XeOto.cpp.obj.provides: CMakeFiles/Xe.dir/XeOto.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeOto.cpp.obj.provides.build
+.PHONY : CMakeFiles/Xe.dir/XeOto.cpp.obj.provides
+
+CMakeFiles/Xe.dir/XeOto.cpp.obj.provides.build: CMakeFiles/Xe.dir/XeOto.cpp.obj
+
+
 # Object files for target Xe
 Xe_OBJECTS = \
 "CMakeFiles/Xe.dir/main.cpp.obj" \
-"CMakeFiles/Xe.dir/Xe.cpp.obj"
+"CMakeFiles/Xe.dir/Xe.cpp.obj" \
+"CMakeFiles/Xe.dir/XeOto.cpp.obj"
 
 # External object files for target Xe
 Xe_EXTERNAL_OBJECTS =
 
 Xe.exe: CMakeFiles/Xe.dir/main.cpp.obj
 Xe.exe: CMakeFiles/Xe.dir/Xe.cpp.obj
+Xe.exe: CMakeFiles/Xe.dir/XeOto.cpp.obj
 Xe.exe: CMakeFiles/Xe.dir/build.make
 Xe.exe: CMakeFiles/Xe.dir/linklibs.rsp
 Xe.exe: CMakeFiles/Xe.dir/objects1.rsp
 Xe.exe: CMakeFiles/Xe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=F:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Xe.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=E:\GitRepo\Xe\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Xe.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Xe.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -128,6 +154,7 @@ CMakeFiles/Xe.dir/build: Xe.exe
 
 CMakeFiles/Xe.dir/requires: CMakeFiles/Xe.dir/main.cpp.obj.requires
 CMakeFiles/Xe.dir/requires: CMakeFiles/Xe.dir/Xe.cpp.obj.requires
+CMakeFiles/Xe.dir/requires: CMakeFiles/Xe.dir/XeOto.cpp.obj.requires
 
 .PHONY : CMakeFiles/Xe.dir/requires
 
@@ -136,6 +163,6 @@ CMakeFiles/Xe.dir/clean:
 .PHONY : CMakeFiles/Xe.dir/clean
 
 CMakeFiles/Xe.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" F:\GitRepo\Xe F:\GitRepo\Xe F:\GitRepo\Xe\cmake-build-debug F:\GitRepo\Xe\cmake-build-debug F:\GitRepo\Xe\cmake-build-debug\CMakeFiles\Xe.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" E:\GitRepo\Xe E:\GitRepo\Xe E:\GitRepo\Xe\cmake-build-debug E:\GitRepo\Xe\cmake-build-debug E:\GitRepo\Xe\cmake-build-debug\CMakeFiles\Xe.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Xe.dir/depend
 

@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Xe.dir/main.cpp.obj"
   "CMakeFiles/Xe.dir/Xe.cpp.obj"
+  "CMakeFiles/Xe.dir/XeOto.cpp.obj"
   "Xe.pdb"
   "Xe.exe"
   "Xe.exe.manifest"

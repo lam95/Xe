@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.1.3\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = F:\GitRepo\Xe
+CMAKE_SOURCE_DIR = E:\GitRepo\Xe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = F:\GitRepo\Xe\cmake-build-debug
+CMAKE_BINARY_DIR = E:\GitRepo\Xe\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\GitRepo\Xe\cmake-build-debug\CMakeFiles F:\GitRepo\Xe\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitRepo\Xe\cmake-build-debug\CMakeFiles E:\GitRepo\Xe\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start F:\GitRepo\Xe\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\GitRepo\Xe\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -149,6 +149,33 @@ Xe.cpp.s:
 	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/Xe.cpp.s
 .PHONY : Xe.cpp.s
 
+XeOto.obj: XeOto.cpp.obj
+
+.PHONY : XeOto.obj
+
+# target to build an object file
+XeOto.cpp.obj:
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeOto.cpp.obj
+.PHONY : XeOto.cpp.obj
+
+XeOto.i: XeOto.cpp.i
+
+.PHONY : XeOto.i
+
+# target to preprocess a source file
+XeOto.cpp.i:
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeOto.cpp.i
+.PHONY : XeOto.cpp.i
+
+XeOto.s: XeOto.cpp.s
+
+.PHONY : XeOto.s
+
+# target to generate assembly for a file
+XeOto.cpp.s:
+	$(MAKE) -f CMakeFiles\Xe.dir\build.make CMakeFiles/Xe.dir/XeOto.cpp.s
+.PHONY : XeOto.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -188,6 +215,9 @@ help:
 	@echo ... Xe.obj
 	@echo ... Xe.i
 	@echo ... Xe.s
+	@echo ... XeOto.obj
+	@echo ... XeOto.i
+	@echo ... XeOto.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
